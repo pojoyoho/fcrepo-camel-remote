@@ -3,7 +3,7 @@
 ```
 {
     "identifier": "/prod",
-    "recipients": "activemq:queue:triplestore.reindex,activemq:queue:solr.reindex,activemq:queue:fixity",
+    "recipients": "broker:queue:triplestore.reindex,broker:queue:solr.reindex,broker:queue:fixity",
     "action": "update.triple"
 }
 ```
