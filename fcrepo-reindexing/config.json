@@ -1,5 +1,5 @@
 {
     "identifier": "/test",
     "recipients": "",
-    "action": ""
+    "action": "update.triple"
 }
