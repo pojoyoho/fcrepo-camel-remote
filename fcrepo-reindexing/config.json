@@ -1,5 +1,5 @@
 {
     "identifier": "/prod/2c/02/12/e7/2c0212e7-1d80-4ae1-b4ba-0b3e2d8511fe",
     "recipients": "",
-    "action": "delete.object"
+    "action": "update.triple"
 }
