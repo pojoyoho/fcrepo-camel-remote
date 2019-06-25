@@ -1,5 +1,5 @@
 {
     "identifier": "/prod/22/fd/59/d6/22fd59d6-44d1-4a05-a0df-6867af2256a8",
-    "recipients": "activemq:queue:triplestore.reindex",
+    "recipients": "broker:queue:triplestore.reindex",
     "action": "delete.object"
 }
