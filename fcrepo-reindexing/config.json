@@ -1,5 +1,5 @@
 {
     "identifier": "/prod/00/0b/36/c4/000b36c4-55ba-471b-aaf8-d9d1c5f5ee06/files/9b729cbc-868e-42ba-b728-ec9de0374116",
     "recipients": "",
-    "action": "delete.object"
+    "action": "update.object"
 }
