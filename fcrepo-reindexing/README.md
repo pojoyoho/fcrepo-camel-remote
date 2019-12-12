@@ -13,6 +13,7 @@ Fedora camel component: fcrepo-reindexing-4.7.2
 - action: action to preform ```[update.triple|delete.object]```
   - update.object: set identifier: "/prod/.." and recipients: (one of the list or "": will do nothing)
   - delete.object: set identifier: "/prod/.." and recipients = ""
+
 # Configure git account in the project
 - Update git config in /workspace/fcrepo-camel-remote/.get/config
 ```
