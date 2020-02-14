@@ -4,7 +4,7 @@ Fedora camel component: fcrepo-reindexing-4.7.2
 {
     "identifier": "/prod/48/79/6c/36/48796c36-a119-4551-b6b0-7d71f840b84d",
     "recipients": "broker:queue:triplestore.reindex,broker:queue:solr.reindex,broker:queue:fixity",
-    "action": "update.triple"
+    "action": "update.object"
 }
 ```
 - identifier: container path to reindex Ex. ```/prod/48/79/6c/36/48796c36-a119-4551-b6b0-7d71f840b84d```
