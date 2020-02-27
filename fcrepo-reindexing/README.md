@@ -1,4 +1,6 @@
-# config.json
+# fcrepo-reindexing
+
+## config.json
 Fedora camel component: fcrepo-reindexing-4.7.2
 ```
 {
@@ -14,8 +16,20 @@ Fedora camel component: fcrepo-reindexing-4.7.2
   - update.object: set identifier: "/prod/.." and recipients: (one of the list or "": will do nothing)
   - delete.object: set identifier: "/prod/.." and recipients = ""
 
-# Configure git account in the project
+## update_config.sh
+The object_paths.txt contains paths to Fedora objects that you want to update. 
+
+The script reads object_paths.txt and uses the path to update object identifier in config.json. 
+Then, commits to github repository and waits for random minutes from 20 to 60 minutes. To run the script
+in background job using the following command. The outputs are in update_config.log file.
+
+```shell
+$ ./update_config.sh &>> update_config.log &
+```
+
+## Configure git account in the project
 - Update git config in /workspace/fcrepo-camel-remote/.get/config
+
 ```
 [user]
         name = pojoyoho
