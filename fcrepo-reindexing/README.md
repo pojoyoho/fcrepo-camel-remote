@@ -19,12 +19,19 @@ Fedora camel component: fcrepo-reindexing-4.7.2
 ## update_config.sh
 The object_paths.txt contains paths to Fedora objects that you want to update. 
 
+### object_paths.txt
+```shell
+/prod/b2/78/85/f5/b27885f5-bfca-4c3c-90c7-f1ea16447523
+/prod/78/7b/a0/35/787ba035-be59-4828-94bc-45e6c5538aff
+/prod/49/42/d3/5e/4942d35e-d98b-4b61-b017-10d085fc0d02
+```
+
 The script reads object_paths.txt and uses the path to update object identifier in config.json. 
 Then, commits to github repository and waits for random minutes from 20 to 60 minutes. To run the script
 in background job using the following command. The outputs are in update_config.log file.
 
 ```shell
-$ ./update_config.sh &>> update_config.log &
+$ ./update_config.sh >> update_config.log &
 ```
 
 ## Configure git account in the project
