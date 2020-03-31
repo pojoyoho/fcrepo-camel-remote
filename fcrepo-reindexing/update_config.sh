@@ -11,7 +11,7 @@ do
   git commit -a -m "Update identifier to $line"
   git push
   # sleep for random 10 to 60 minutes
-  min=$(jot -r 10 60)
+  min=$(jot -r 1 10 60)
   echo "$(date): Waiting $min minutes..."
   sleep $((min*60))
 done < "$input"
