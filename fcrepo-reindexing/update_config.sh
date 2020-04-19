@@ -8,7 +8,7 @@ do
   # update object path with escape
   escpath=$(echo $line | sed 's/\//\\\//g')
   # update identifier in config.json
-  sed 's/\/prod[^"]*/'"$escpath"'/' config.json
+  sed -i '' 's/\/prod[^"]*/'"$escpath"'/' config.json
   
   # commit and push
   git commit -a -m "Update identifier to $line"
