@@ -1,5 +1,5 @@
 {
-    "identifier": "/prod/fa/84/25/d3/fa8425d3-a331-4fd1-8f28-cefc17b3933f",
+    "identifier": "/prod/af/cb/60/0f/afcb600f-ba53-4323-8823-6526d70e59df",
     "recipients": "broker:queue:triplestore.reindex",
     "action": "delete.object"
 }
