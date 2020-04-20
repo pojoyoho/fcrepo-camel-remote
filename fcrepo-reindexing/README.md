@@ -1,4 +1,14 @@
 # fcrepo-reindexing
+This configuration is for fcrepo-camel-reindexing component to update the Fedora4 repository.
+
+## query-result.csv
+The csv file is a result from GraphDB SPARQL query that has only subject column. 
+
+## csv2path.sh
+This script transforms query-result.csv from GraphDB SPARQL query to object_paths.txt. The script needs the query-result.csv directory as a parameter.
+```shell
+./csv2path.sh ~/Downloads > object_path.txt
+```
 
 ## config.json
 Fedora camel component: fcrepo-reindexing-4.7.2
@@ -18,6 +28,9 @@ Fedora camel component: fcrepo-reindexing-4.7.2
 
 ## update_config.sh
 The object_paths.txt contains paths to Fedora objects that you want to update. 
+```shell
+./update_config.sh > update_config.sh
+```
 
 ### object_paths.txt
 ```shell
