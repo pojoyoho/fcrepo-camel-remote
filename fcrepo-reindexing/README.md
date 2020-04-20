@@ -55,7 +55,7 @@ Then, commits to github repository and waits for random minutes from 20 to 60 mi
 in background job using the following command. The outputs are in update_config.log file.
 
 ```shell
-$ ./update_config.sh >> update_config.log &
+./update_config.sh >> update_config.log &
 ```
 
 ## Notes
