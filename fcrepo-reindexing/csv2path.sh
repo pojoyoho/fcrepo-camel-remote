@@ -5,12 +5,15 @@
 if [ -z "$1" ]
   then
     echo "Usage:"
-    echo "  csv2path \$dir > object_paths.txt"
-    echo "  \$dir: query-results.csv directory"
+    echo "  csv2path.sh \$1 > object_paths.txt"
+    echo "  - \$1: query-results.csv directory"
+    echo "Ex:"
+    echo "  ./csv2path.sh ~/Downloads > object_paths.txt"
     exit 1
 fi
 # create query-all.csv from query-result*.csv
 cat $1/query-result*.csv > /tmp/query-all.csv
+rm -f $1/query-result*.csv
 # remove subject header lines
 sed -i '' '/^s/d' /tmp/query-all.csv
 # remove server urls
