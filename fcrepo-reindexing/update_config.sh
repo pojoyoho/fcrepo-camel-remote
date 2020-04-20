@@ -8,7 +8,7 @@ do
     # sleep for random N to NN minutes
     min=$(jot -r 1 3 10)
     echo "$(date): Waiting $min minutes..."
-    #sleep $((min*60))
+    sleep $((min*60))
   fi
   
   # remove trailing carrier return
