@@ -22,7 +22,7 @@ The csv file is a result from GraphDB SPARQL query that has only subject column.
 ## csv2path.sh
 This script transforms query-result.csv from GraphDB SPARQL query to object_paths.txt. The script needs the query-result.csv directory as a parameter.
 ```shell
-./csv2path.sh ~/Downloads > object_path.txt
+./csv2path.sh ~/Downloads > object_paths.txt
 ```
 
 ### object_paths.txt
