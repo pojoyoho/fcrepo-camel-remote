@@ -1,5 +1,5 @@
 {
-    "identifier": "/prod/f7/d1/d2/27/f7d1d227-b1bb-4c71-bd00-301b21aa5e4c/member_of_collections/7a0ce5b4-ad4b-4446-85ef-9d5a3afebfa4",
+    "identifier": "/prod/d2/c6/09/a5/d2c609a5-fd61-4efe-8f89-03d4d194f60a/member_of_collections/4b5242dc-b63b-4005-9605-3c7bcd291897",
     "recipients": "broker:queue:triplestore.reindex",
     "action": "delete.object"
 }
