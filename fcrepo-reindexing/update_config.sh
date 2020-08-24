@@ -6,7 +6,7 @@ do
   if [ $((i++)) -gt 0 ] 
   then
     # sleep for random N to NN minutes
-    min=$(jot -r 1 2 5)
+    min=$(jot -r 1 3 8)
     echo "$(date): Waiting $min minutes..."
     sleep $((min*60))
   fi
